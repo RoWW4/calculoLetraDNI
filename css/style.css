@@ -1,0 +1,17 @@
+body {
+    background-color: rgb(132, 212, 236);
+    width: 500px;
+    margin: auto;
+}
+
+.datos {
+    background-color: rgb(255, 174, 0);
+    width: 300px;
+    text-align: center;
+    padding: 20px;
+}
+
+.datos legend {
+    background-color: black;
+    color: white;
+}

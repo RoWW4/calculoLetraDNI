@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+
+<head>
+    <title>Práctica 1 - JavaScript</title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" href="css/style.css">
+
+</head>
+
+<body>
+    <h1>Cálculo de la letra del DNI</h1>
+    <form id="formulario">
+        <fieldset class="datos">
+            <legend>FORMULARIO</legend>
+            <span><b>DNI (sin letra):</b></span>
+            <input id="dni" type="text" maxlength="8" pattern="[0-9]{8}" placeholder="12345678" required>
+            <br><br>
+            <span><b>Letra DNI:</b></span>
+            <input id="letra" type="text" maxlength="1" pattern="[A-Z]{1}" placeholder="E" required>
+            <br><br>
+            <button type="button" onclick="CalculoDNI();">Calcular</button>
+        </fieldset>
+    </form>
+    <script type="text/javascript" src="./js/javascript.js"></script>
+</body>
+
+</html>
