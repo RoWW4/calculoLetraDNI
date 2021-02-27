@@ -11,19 +11,22 @@
 <body>
     <h1>Cálculo de la letra del DNI</h1>
     <div class="contenedor">
-        <form id="formulario">
+        <form id="formulario" action="#">
             <fieldset class="datos">
                 <legend>FORMULARIO</legend>
                 <span><b>DNI (sin letra):</b></span>
-                <input id="dni" type="text" maxlength="8" pattern="[0-9]{8}" placeholder="12345678" required>
+                <input id="dni" type="text" maxlength="8" pattern="[0-9]{8}" placeholder="12345678" required
+                    onkeypress="pulsarEnter();">
                 <br><br>
                 <span><b>Letra DNI:</b></span>
-                <input id="letra" type="text" maxlength="1" pattern="[A-Z]{1}" placeholder="E" required>
+                <input id="letra" type="text" maxlength="1" pattern="[A-Z]{1}" placeholder="E" required
+                    onkeypress="pulsarEnter();">
                 <br><br>
                 <button type="button" onclick="CalculoDNI();">Calcular</button>
             </fieldset>
         </form>
-        <h1 id="resultadoLetra"></h1>
+        <h1 id="mostrarLetra"></h1>
+        <h3 id="escribirMensaje"></h3>
     </div>
     <script type="text/javascript" src="./js/javascript.js"></script>
 </body>
