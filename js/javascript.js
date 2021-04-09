@@ -13,9 +13,9 @@ function CalculoDNI()
         alert("No puede haber campos vacíos");
     }
 
-    else if(isNaN(dni))
+    else if(isNaN(dni) || dni.length < 8)
     {
-        alert("DNI tiene que ser una cadena de números");
+        alert("DNI tiene que ser una cadena de números válida");
         document.getElementById("dni").value = "";
     }
 
