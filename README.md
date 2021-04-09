@@ -1,3 +1,2 @@
 # calculoLetraDNI
-Practica Curso Samsung Desarrolladoras FullStack
-Calcular la letra del DNI
+Practica Curso Samsung Desarrolladoras FullStack para calcular la letra del DNI
